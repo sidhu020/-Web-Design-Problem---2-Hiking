@@ -1,0 +1,88 @@
+.navbar img {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.home {
+  background-image: url("../img/home.jpg");
+  width: 100%;
+}
+
+.home .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home .box-container .box {
+  flex: 1 1 30rem;
+  background: transparent;
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: 0.2s linear;
+}
+
+.home .box-container .box1 {
+  background-color: rgb(255, 146, 4);
+  opacity: 0.3;
+  color: rgb(255, 255, 255);
+}
+
+.home .box-container .box2 {
+  color: rgb(133, 133, 133);
+}
+
+.home .box-container .box2 .button {
+  background-color: transparent;
+  border-width: 5px;
+  border-radius: 25px;
+  border-color: white;
+  color: white;
+  width: auto;
+  padding: 9px;
+}
+
+.home .box-container .box2 img {
+  padding: 0;
+  margin: 0%;
+}
+
+.info .infonum {
+  background-color: rgba(254, 174, 60, 255);
+  height: 700px;
+  color: black;
+  text-align: center;
+}
+
+.info .infonum h1 {
+  padding-top: 50px;
+  word-spacing: 15px;
+}
+
+.info .infonum .maininfo {
+  background-image: url(../img/infobg.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.info .infonum .maininfo p {
+  margin: 15%;
+  padding: 30px;
+  padding-top: 70px;
+  color: white;
+  height: 80px;
+  width: 400px;
+}
+
+.level {
+  background-image: url("../img/level.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 900px;
+  overflow-x: visible;
+  overflow: visible;
+}
