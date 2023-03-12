@@ -62,7 +62,7 @@
 }
 
 .info .infonum .maininfo {
-  background-image: url(img/infobg.png);
+  background-image: url(infobg.png);
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -79,7 +79,7 @@
 }
 
 .level {
-  background-image: url("img/level.png");
+  background-image: url("level.png");
   background-repeat: no-repeat;
   object-fit: contain;
   height: 900px;
